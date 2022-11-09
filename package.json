@@ -1,0 +1,28 @@
+{
+  "name": "seleniumtutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --no-timeouts index.js --require @babel/register --exit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/node": "^7.19.1",
+    "chai": "^4.3.6",
+    "chromedriver": "^106.0.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "selenium-webdriver": "^4.5.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/plugin-transform-async-to-generator": "^7.18.6",
+    "@babel/preset-env": "^7.19.4",
+    "@babel/register": "^7.18.9",
+    "mocha": "^10.0.0"
+  }
+}
